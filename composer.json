@@ -1,0 +1,25 @@
+{
+    "name": "hinet/laravel-ckeditor",
+    "description": "ckeditor for laravel 5",
+    "type": "library",
+    "require": {
+        "php": ">=5.4",
+        "illuminate/support": "5.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hinet",
+            "email": "63603636@qq.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/controller"
+        ],
+        "psr-4": {
+            "Hinet\\Ckeditor\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
