@@ -22,8 +22,7 @@ Hinet\Ckeditor\EditorServiceProvider::class
 'Ckeditor' => Hinet\Ckeditor\Ckeditor::class,
 ```
 
-* 发布配置
-
+* 发布配置及资源文件
 ```php
 php artisan vendor:publish --provider="Hinet\Ckeditor\EditorServiceProvider" --tag="ckeditor"
 ```
