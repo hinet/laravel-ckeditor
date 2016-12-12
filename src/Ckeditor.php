@@ -14,7 +14,7 @@ class Ckeditor
      */
     public static function content($content='', $config=[]) {
         $attr = Ckeditor::ConvertAttrib($config);
-        echo "<div {$attr}>{$content}</div>";
+        echo "<textarea {$attr}>{$content}</textarea>";
     }
     /**
      * 生成编辑器的参数
