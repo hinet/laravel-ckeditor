@@ -30,6 +30,7 @@ return [
 	],
 	'config.height' => '150',
 	'config.width' => 'auto',
+	'config.extraPlugins' => 'justify',
 	'config.resize_enabled' => 'false',
 	'config.removeDialogTabs' => 'image:advanced;link:advanced',
 	'config.language' => 'zh-cn',
