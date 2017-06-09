@@ -36,3 +36,11 @@ php artisan vendor:publish --provider="Hinet\Ckeditor\EditorServiceProvider" --t
 {{ Ckeditor::js() }}
 ```
 
+# 启用文本对齐
+
+* 在Ckeditor官网搜索：justify插件，下载并解压拷贝到ckeditor\plugins目录;
+* 配置ckedirot.php：
+```php
+//增加
+'config.extraPlugins' => 'justify',
+```
